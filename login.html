@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: greenyellow;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-container {
+            background: #fff;
+            padding: 2rem 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 320px;
+        }
+        .login-container h2 {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .login-container label {
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: 1rem;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 0.7rem;
+            background: #0078d7;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background: #005fa3;
+        }
+        .navbar ul{
+    list-style-type: none;
+    background-color: yellowgreen;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+.navbar a{
+color: white;
+text-decoration: none;
+padding: 15px;
+display: block;
+text-align: right;
+border-radius: 40px;
+}
+.navbar a:hover{
+    background-color:yellowgreen;
+}
+.navbar li{
+    float: left;
+    border-radius: 40px;
+    
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+   <ul style="text-align: right;background-color: blue;">
+    <li><a href="home.html">HOME</a></li>
+    <li><a href="FILMS.html">FILMS</a></li>
+    <li><a href="IMAGE.html">Image</a></li>
+    <li><a href="AUDIO.html">Audio</a></li>
+    <li><a href="login.html">LOGIN</a></li>
+    <li><a href="sign.html">SIGN</a></li>
+    <li><a href="signup.html">SIGNUP</a></li>
+    <li><a href="about.html">ABOUT US</a></li>
+    <li><a href="register.html">REGISTER</a></li>
+</ul>
+</nav>
+    <form class="login-container" action="#" method="post">
+        <h2>Login</h2>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+</body>
+
+</html></form>
