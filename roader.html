@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spin Loader</title>
+    <style>
+        .spinner {
+            margin: 100px auto;
+            width: 60px;
+            height: 60px;
+            border: 8px solid gold;
+            border-top: 8px solid #3498db;
+            border-left: black;
+            border-right: limegreen;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg);}
+            100% { transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="spinner" id="loader"></div>
+    <script>
+        // Example: Hide loader after 3 seconds
+        setTimeout(function() {
+            document.getElementById('loader').style.display = 'none';
+            window.location.href = 'rey.html';
+        }, 5000);
+    </script>
+</body>
+</html></html>
